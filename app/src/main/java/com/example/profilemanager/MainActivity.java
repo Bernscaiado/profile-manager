@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btn = findViewById(R.id.button);
+        ImageView avatar = findViewById(R.id.imageView);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +32,15 @@ public class MainActivity extends AppCompatActivity {
                 OnOpenInGoogleMaps(v);
             }
         });
+
+        avatar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
+                profileActivityResultLauncher.launch(intent);
+            }
+        });
+
 
     }
 
