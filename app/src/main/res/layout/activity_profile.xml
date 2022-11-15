@@ -24,22 +24,25 @@
             android:layout_marginBottom="15dp">
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/france"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/flag_fr" />
+                app:srcCompat="@drawable/flag_fr"
+                android:onClick="SetTeamIcon"/>
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/iran"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/flag_eg" />
+                app:srcCompat="@drawable/flag_eg"
+                android:onClick="SetTeamIcon"/>
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/canada"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/flag_ca" />
+                app:srcCompat="@drawable/flag_ca"
+                android:onClick="SetTeamIcon"/>
         </TableRow>
 
         <TableRow
@@ -48,22 +51,25 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/spain"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/flag_sp" />
+                app:srcCompat="@drawable/flag_sp"
+                android:onClick="SetTeamIcon"/>
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/korea"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/flag_kr" />
+                app:srcCompat="@drawable/flag_kr"
+                android:onClick="SetTeamIcon"/>
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/japan"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/flag_jp" />
+                app:srcCompat="@drawable/flag_jp"
+                android:onClick="SetTeamIcon"/>
         </TableRow>
 
         <TableRow
@@ -72,22 +78,25 @@
             android:layout_height="43dp">
 
             <ImageView
-                android:id="@+id/imageView11"
+                android:id="@+id/usa"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/flag_us" />
+                app:srcCompat="@drawable/flag_us"
+                android:onClick="SetTeamIcon"/>
 
             <ImageView
-                android:id="@+id/imageView10"
+                android:id="@+id/england"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/flag_uk" />
+                app:srcCompat="@drawable/flag_uk"
+                android:onClick="SetTeamIcon"/>
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/turkey"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                app:srcCompat="@drawable/flag_tr" />
+                app:srcCompat="@drawable/flag_tr"
+                android:onClick="SetTeamIcon"/>
         </TableRow>
 
     </TableLayout>
